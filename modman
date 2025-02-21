@@ -5,3 +5,6 @@ app/code/local/InternetCode/BankTransfer            app/code/local/InternetCode/
 app/etc/modules/InternetCode_BankTransfer.xml            app/etc/modules/InternetCode_BankTransfer.xml
 # app/locale
 app/locale/el_GR/InternetCode_BankTransfer.csv            app/locale/el_GR/InternetCode_BankTransfer.csv
+# app/design
+app/design/frontend/base/default/template/ic_banktransfer/info/banktransfer.phtml            app/design/frontend/base/default/template/ic_banktransfer/info/banktransfer.phtml
+app/design/frontend/base/default/template/ic_banktransfer/form/banktransfer.phtml            app/design/frontend/base/default/template/ic_banktransfer/form/banktransfer.phtml

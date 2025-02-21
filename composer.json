@@ -2,7 +2,7 @@
   "name": "m-michalis/om-bank-payment",
   "type": "magento-module",
   "license": "GPL-3.0",
-  "version": "v0.1.1",
+  "version": "v0.1.2",
   "homepage": "https://github.com/m-michalis/om-bank-payment",
   "description":"Bank payment for OpenMage with dropdown",
   "keywords": [
