@@ -1,0 +1,20 @@
+<?php
+/**
+ * @see InternetCode_BankTransfer_Block_Form_Banktransfer
+ */
+?>
+<?php $_code=$this->getMethodCode() ?>
+<?php if ($accounts = $this->getBanksAccounts()): ?>
+    <ul class="form-list" id="payment_form_<?php echo $this->getMethodCode() ?>" style="display:none;">
+        <li>
+            <select name="payment[bank_bic]">
+                <option value selected disabled>-- Select Bank --</option>
+                <?php foreach ($accounts as $bank): ?>
+                    <option value="<?php echo $bank['bic'] ?>">
+                        <?php echo $bank['bank_name'] ?>
+                    </option>
+                <?php endforeach ?>
+            </select>
+        </li>
+    </ul>
+<?php endif ?>

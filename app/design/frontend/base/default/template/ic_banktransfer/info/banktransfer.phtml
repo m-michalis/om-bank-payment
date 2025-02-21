@@ -1,0 +1,13 @@
+<?php
+/**
+ * @see InternetCode_BankTransfer_Block_Info_Banktransfer
+ */
+?>
+<?php $bank = $this->getSelectedBank(); ?>
+<p><?php echo $this->escapeHtml($this->getMethod()->getTitle()) ?></p>
+<?php if ($bank): ?>
+    <p><strong><?php echo $this->__('Bank:') ?></strong> <span class="nobr"><?php echo $this->escapeHtml($bank['bank_name']) ?></span></p>
+    <p><strong><?php echo $this->__('IBAN:') ?></strong> <span class="nobr"><?php echo $this->escapeHtml($bank['iban']) ?></span></p>
+    <p><strong><?php echo $this->__('BIC:') ?></strong> <span class="nobr"><?php echo $this->escapeHtml($bank['bic']) ?></span></p>
+    <p><strong><?php echo $this->__('beneficiary:') ?></strong> <span class="nobr"><?php echo $this->escapeHtml($bank['beneficiary']) ?></span></p>
+<?php endif ?>
