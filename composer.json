@@ -1,0 +1,24 @@
+{
+  "name": "m-michalis/om-bank-payment",
+  "type": "magento-module",
+  "license": "GPL-3.0",
+  "version": "v0.1.1",
+  "homepage": "https://github.com/m-michalis/om-bank-payment",
+  "description":"Bank payment for OpenMage with dropdown",
+  "keywords": [
+    "openmage",
+    "bank payment",
+    "payment method",
+    "magento"
+  ],
+  "require": {
+    "php": "^8.2",
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors":[
+    {
+      "name":"Michalis Michalis",
+      "email":"m@internetcode.gr"
+    }
+  ]
+}
